@@ -88,10 +88,10 @@ export default function Portfolio() {
           <motion.div className="space-y-8 relative" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }}>
             <motion.div className="absolute -z-10 w-[500px] h-[500px] bg-gradient-to-r from-blue-200 to-purple-200 blur-3xl opacity-30 dark:opacity-20" animate={{ rotate: 360 }} transition={{ duration: 20, repeat: Infinity, ease: 'linear' }} />
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Learning Developer
-              <span className="block text-3xl md:text-4xl text-gray-600 dark:text-gray-300 mt-4">YSevenK</span>
+              你 好
+              <span className="block text-3xl md:text-4xl text-gray-600 dark:text-gray-300 mt-4">我是 YSevenK</span>
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl">流水不争先</p>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl">Become water, my friend</p>
           </motion.div>
         </section>
 

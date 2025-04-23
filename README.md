@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 个人作品集网站
 
-## Getting Started
+基于 [Next.js](https://nextjs.org) 构建的个人作品集网站，使用现代化的技术栈和动画效果。
 
-First, run the development server:
+## 特性
+
+- 🎨 现代化的UI设计
+- ✨ 流畅的过渡动画
+- 📱 响应式布局
+- 🚀 性能优化
+
+## 技术栈
+
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+## 本地开发
+
+首先，克隆项目并安装依赖：
+
+```bash
+git clone https://github.com/YSevenK/personal_portfolio.git
+cd personal_portfolio
+npm install
+```
+
+然后，运行开发服务器：
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+在浏览器中打开 [http://localhost:3000](http://localhost:3000) 查看结果。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 项目结构
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+personal_portfolio/
+├── app/                # Next.js 应用目录
+│   └── page.tsx       # 主页面组件
+├── components/        # 可复用组件
+├── data/             # 项目数据
+├── public/           # 静态资源
+└── styles/           # 样式文件
+```
 
-## Learn More
+## 部署
 
-To learn more about Next.js, take a look at the following resources:
+本项目可以轻松部署到 [Vercel](https://vercel.com) 平台：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. 将代码推送到 GitHub 仓库
+2. 在 Vercel 中导入项目
+3. 等待自动部署完成
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 许可证
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT © [YSevenK](https://github.com/YSevenK)

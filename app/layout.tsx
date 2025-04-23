@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "个人作品集-ysk",
+  title: "个人作品集-YSevenK",
   description: "个人作品展示集合",
 };
 
